@@ -39,7 +39,23 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  
+  @media (max-width: 600px){
 
+.hid{
+  display: none !important;
+}
+}
+  @media (min-width: 600px){
+
+.did{
+  display: none !important;
+}
+}
+
+
+
+  
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9037,7 +9053,8 @@ textarea.form-control {
       .portfolio-entry .text-wrapper {
         height: inherit; } }
   .portfolio-entry .one-half {
-    width: 60%; }
+    width: 60%;
+   }
     @media (max-width: 991.98px) {
       .portfolio-entry .one-half {
         width: 100%; } }

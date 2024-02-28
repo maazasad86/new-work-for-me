@@ -8648,13 +8648,14 @@ h1, h2, h3, h4, h5,
         color: #fff; }
 
 .ftco-intro .img {
-  width: 100%; }
+  /* width: 100%;  */
+}
   @media (max-width: 991.98px) {
     .ftco-intro .img {
       height: 400px; } }
 
 .ftco-intro h2 {
-  font-size: 60px; }
+  font-size: 30px; }
   .ftco-intro h2 span {
     background: #fdcb6e; }
 
